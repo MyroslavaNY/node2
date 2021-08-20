@@ -9,6 +9,12 @@
 </head>
 <body>
 
+{{#if isMale}}
+    <div>HELLO MAN</div>
+{{else}}
+    <div>HELLO GIRL</div>
+{{/if}}
+
 <form action="/auth" method="post">
     <input type="text" name="name">
     <input type="text" name="password">
