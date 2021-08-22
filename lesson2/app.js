@@ -18,9 +18,9 @@ app.set('views', path.join(__dirname, 'static'));
 
 
 
-app.get('/ping', ((req, res) => {
+app.get('/ping', (req, res) => {
     res.json('Pong')
-}));
+});
 
 app.get('/', (req, res) => {
     // console.log(req);
